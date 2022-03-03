@@ -1,17 +1,17 @@
 const CACHE_NAME = "v1_cache_counter_app";
 const urlsToCache = [
-    "../",
-    "../img/favicon.png",
-    "../img/icon-32.png",
-    "../img/icon-64.png",
-    "../img/icon-128.png",
-    "../img/icon-256.png",
-    "../img/icon-512.png",
-    "../img/icon-1024.png",
+    "./",
+    "./img/favicon.png",
+    "./img/icon-32.png",
+    "./img/icon-64.png",
+    "./img/icon-128.png",
+    "./img/icon-256.png",
+    "./img/icon-512.png",
+    "./img/icon-1024.png",
     "./main.js",
     "./mountApp.js",
     "https://unpkg.com/vue@3",
-    "../css/main.css",
+    "./css/main.css",
     "https://necolas.github.io/normalize.css/latest/normalize.css"
 ];
 
