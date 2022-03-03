@@ -24,8 +24,8 @@ self.addEventListener("install", e => {
                 err => console.log(err)
             )
         )
-    )
-})
+    );
+});
 
 self.addEventListener("activate", e => {
     const cacheWhiteList = [CACHE_NAME];
@@ -46,8 +46,8 @@ self.addEventListener("activate", e => {
         ).then(
             () => self.clients.claim()
         )
-    )
-})
+    );
+});
 
 self.addEventListener("fetch", e => {
     e.respondWith(
@@ -60,5 +60,5 @@ self.addEventListener("fetch", e => {
                 return fetch(e.request);
             }
         )
-    )
-})
+    );
+});
